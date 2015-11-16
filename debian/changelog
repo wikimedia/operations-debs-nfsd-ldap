@@ -1,0 +1,5 @@
+nfsd-ldap (1.0) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Marc A. Pelletier <marc@wikimedia.org>  Mon, 16 Nov 2015 09:57:37 -0500

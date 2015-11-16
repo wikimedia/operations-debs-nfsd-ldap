@@ -1,0 +1,18 @@
+Source: nfsd-ldap
+Section: net
+Priority: extra
+Maintainer: Marc A. Pelletier <marc@wikimedia.org>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.5
+#Vcs-Git: git://git.debian.org/collab-maint/nfsd-ldap.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/nfsd-ldap.git;a=summary
+
+Package: nfsd-ldap
+Architecture: any
+Priority: extra
+Pre-Depends: nfs-kernel-server
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Shim to invoke nfsd with LDAP enabled
+ This provides a diverting shim to invoke the system nfsd with LDAP
+ enabled regardless of /etc/nsswitch.conf, and disable nscd usage
+ for it (to avoid the possibility of conflicting settings).
