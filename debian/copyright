@@ -1,11 +1,13 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 
 Files: *
-Copyright: 2015 Marc A. Pelletier <marc@wikimedia.org>
+Copyright: 2015 Wikimedia Foundation, Inc.
+           2015 Marc A. Pelletier <marc@wikimedia.org>
 License: ISC
 
 Files: debian/*
-Copyright: 2015 Marc A. Pelletier <marc@wikimedia.org>
+Copyright: 2015 Wikimedia Foundation, Inc.
+           2015 Marc A. Pelletier <marc@wikimedia.org>
 License: ISC
 
 License: ISC

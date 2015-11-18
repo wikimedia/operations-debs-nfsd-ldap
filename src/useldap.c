@@ -1,4 +1,5 @@
 /*
+ * Copyright © 2015 Wikimedia Foundation, Inc.
  * Copyright © 2015 Marc-André Pelletier <mpelletier@wikimedia.org>
  *
  * Permission to use, copy, modify, and/or distribute this software for any

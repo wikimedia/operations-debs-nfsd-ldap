@@ -2,7 +2,7 @@ Source: nfsd-ldap
 Section: net
 Priority: extra
 Maintainer: Marc A. Pelletier <marc@wikimedia.org>
-Build-Depends: debhelper (>= 9.0.0)
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.5
 Vcs-Git: https://gerrit.wikimedia.org/r/operations/debs/nfsd-ldap
 Vcs-Browser: https://git.wikimedia.org/summary/operations%2Fdebs%2Fnfsd-ldap
