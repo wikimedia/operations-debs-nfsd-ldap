@@ -1,3 +1,9 @@
+nfsd-ldap (1.1) unstable; urgency=low
+
+  * COrrect the shim script so that it passes its argument forward
+
+ -- Marc A. Pelletier <marc@wikimedia.org>  Mon, 23 Nov 2015 15:57:37 -0500
+
 nfsd-ldap (1.0) unstable; urgency=low
 
   * Initial Release.
