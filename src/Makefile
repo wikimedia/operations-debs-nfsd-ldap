@@ -11,8 +11,10 @@ distclean:
 useldap.so: useldap.c
 	gcc -rdynamic -fPIC -shared -Wl,-soname,useldap.so -o useldap.so useldap.c
 
-install: useldap.so rpc.mountd
+install: useldap.so rpc.mountd useldap
 	install -d $(DESTDIR)/usr/lib/nfsd-ldap
 	install -m 0755 useldap.so $(DESTDIR)/usr/lib/nfsd-ldap/useldap.so
 	install -d $(DESTDIR)/usr/sbin
 	install -m 0755 rpc.mountd $(DESTDIR)/usr/sbin/rpc.mountd
+	install -d $(DESTDIR)/usr/bin
+	install -m 0755 useldap $(DESTDIR)/usr/bin/useldap

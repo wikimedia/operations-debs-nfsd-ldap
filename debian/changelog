@@ -1,6 +1,12 @@
+nfsd-ldap (1.2) unstable; urgency=low
+
+  * Add 'useldap' utility to manually run commands with LDAP nss
+
+ -- Marc A. Pelletier <marc@wikimedia.org>  Tue, 24 Nov 2015 11:02:40 -0500
+
 nfsd-ldap (1.1) unstable; urgency=low
 
-  * COrrect the shim script so that it passes its argument forward
+  * Correct the shim script so that it passes its argument forward
 
  -- Marc A. Pelletier <marc@wikimedia.org>  Mon, 23 Nov 2015 15:57:37 -0500
 

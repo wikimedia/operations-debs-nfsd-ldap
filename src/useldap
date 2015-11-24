@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if [ $# -lt 2 ]; then
+  echo "usage: $0 command..." >&2
+  echo 'Runs "command" with LDAP nss turned on' >&2
+  exit 1
+fi
+
+LD_PRELOAD=/usr/lib/nfsd-ldap/useldap.so exec "$@"
