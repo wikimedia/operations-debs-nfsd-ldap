@@ -5,7 +5,7 @@ Maintainer: Marc A. Pelletier <marc@wikimedia.org>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.5
 Vcs-Git: https://gerrit.wikimedia.org/r/operations/debs/nfsd-ldap
-Vcs-Browser: https://git.wikimedia.org/summary/operations%2Fdebs%2Fnfsd-ldap
+Vcs-Browser: https://phabricator.wikimedia.org/diffusion/ODNFS/
 
 Package: nfsd-ldap
 Architecture: any
