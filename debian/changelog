@@ -1,3 +1,9 @@
+nfsd-ldap (1.2+deb9u1) stretch-wikimedia; urgency=medium
+
+  * Rebuild for Stretch (T209527)
+
+ -- Giovanni Tirloni <gtirloni@wikimedia.org>  Thu, 17 Jan 2019 10:59:43 -0200
+
 nfsd-ldap (1.2) unstable; urgency=low
 
   * Add 'useldap' utility to manually run commands with LDAP nss
